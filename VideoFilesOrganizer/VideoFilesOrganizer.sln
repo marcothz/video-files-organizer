@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoFilesOrganizer.BL", "VideoFilesOrganizer.BL\VideoFilesOrganizer.BL.csproj", "{5775B94F-B123-4AD5-809C-3C61D73A1644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoFilesOrganizer", "VideoFilesOrganizer\VideoFilesOrganizer.csproj", "{1178795A-30E4-4CC0-B97D-C7C66FC8939B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5775B94F-B123-4AD5-809C-3C61D73A1644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5775B94F-B123-4AD5-809C-3C61D73A1644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5775B94F-B123-4AD5-809C-3C61D73A1644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5775B94F-B123-4AD5-809C-3C61D73A1644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1178795A-30E4-4CC0-B97D-C7C66FC8939B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1178795A-30E4-4CC0-B97D-C7C66FC8939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1178795A-30E4-4CC0-B97D-C7C66FC8939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1178795A-30E4-4CC0-B97D-C7C66FC8939B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
